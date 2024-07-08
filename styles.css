@@ -7,15 +7,15 @@ body {
 }
 
 @keyframes cambioColor {
-    0%, 100% { --color: firebrick;}
-    25% { --color: #ff3333;}
-    50% { --color: #dd257b;}
-    75% { --color: #93189e;}
+    0%, 100% { --color: rgb(255, 0, 170);}
+    25% { --color: #ff00f2;}
+    50% { --color: #ff0077;}
+    75% { --color: #ff0080;}
 }
 
 .corazon {
     --tamaño: 150px;
-    --color: firebrick;
+    --color: rgb(166, 34, 178);
     height: var(--tamaño);
     width: var(--tamaño);
     background: var(--color);
